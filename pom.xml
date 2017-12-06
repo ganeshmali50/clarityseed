@@ -6,7 +6,7 @@
 	<artifactId>clarityseed</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>cashcoreui</name>
+	<name>clarityseed</name>
 	<description>Demo project for Spring Boot</description>
     <!-- Plugin to copy the content of /angular/dist/ directory to output directory (ie/ /target/transactionManager-1.0/) -->
 	
