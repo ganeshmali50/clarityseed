@@ -30,7 +30,7 @@
       <version>1.0</version>
       <configuration>
 	<workingDirectory>${project.basedir}</workingDirectory>
-        <installDirectory>temp</installDirectory>
+        <installDirectory>${project.basedir}</installDirectory>
       </configuration>
       <executions>
         <!-- It will install nodejs and npm -->
