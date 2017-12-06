@@ -1,0 +1,2 @@
+# clarityseed
+test ng project
