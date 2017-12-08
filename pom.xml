@@ -52,7 +52,7 @@
             <goal>npm</goal>
           </goals>
           <configuration>
-            <arguments>install -g @angular/cli</arguments>
+            <arguments>install</arguments>
           </configuration>
         </execution>
 
