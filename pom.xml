@@ -4,6 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.intellect</groupId>
 	<artifactId>clarityseed</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>clarityseed</name>
 	<description>Demo project for Spring Boot</description>
@@ -87,7 +88,7 @@
           </goals>
           <configuration>
             <overwrite>true</overwrite>
-            <outputDirectory>${project.build.directory}/clarityseed/</outputDirectory>
+            <outputDirectory>${project.build.directory}/${project.artifactId}-${project.version}</outputDirectory>
             <resources>
               <resource>
                 <directory>${project.basedir}/dist</directory>
