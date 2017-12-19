@@ -4,7 +4,6 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.intellect</groupId>
 	<artifactId>clarityseed</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>clarityseed</name>
 	<description>Demo project for Spring Boot</description>
@@ -20,15 +19,10 @@
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-war-plugin</artifactId>
       <version>2.6</version>
-    </plugin>
-	  <plugin>
-		<groupId>org.apache.maven.plugins</groupId>
-		<artifactId>maven-war-plugin</artifactId>
-		<version>2.6</version>
-		<configuration>
+	    <configuration>
 			<failOnMissingWebXml>false</failOnMissingWebXml>
 		</configuration>
-	</plugin>
+    </plugin>
 
 
     <!-- Plugin to execute command  "npm install" and "npm run build" inside /angular directory -->
@@ -93,7 +87,7 @@
           </goals>
           <configuration>
             <overwrite>true</overwrite>
-            <outputDirectory>${project.build.directory}/CashcoreUI/</outputDirectory>
+            <outputDirectory>${project.build.directory}/clarityseed/</outputDirectory>
             <resources>
               <resource>
                 <directory>${project.basedir}/dist</directory>
