@@ -96,7 +96,7 @@
             <outputDirectory>${project.build.directory}/${project.artifactId}-${project.version}/</outputDirectory>
             <resources>
               <resource>
-                <directory>${project.basedir}/angular/dist</directory>
+                <directory>${project.basedir}/dist</directory>
               </resource>
             </resources>
           </configuration>
